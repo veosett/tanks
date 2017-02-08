@@ -1,1 +1,2 @@
 CMakeLists.tx linguist-vendored
+cmake_modules/* linguist-vendored
