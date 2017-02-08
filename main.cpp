@@ -307,7 +307,7 @@ int main() {
     RenderWindow window(VideoMode(512, 512), "Tanks C++");
 
     Texture tileSet;
-    tileSet.loadFromFile("tanks.png");
+    tileSet.loadFromFile("images/tanks.png");
 
 
     PLAYER Tank(tileSet);
