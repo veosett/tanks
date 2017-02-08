@@ -236,7 +236,7 @@ int main() {
         float time = clock.getElapsedTime().asMicroseconds();
         clock.restart();
 
-        time = time / 1000;  // здесь регулируем скорость игры
+        time = time / 1000;  // speed of game
 
         if (time > 20) {
             time = 20;
